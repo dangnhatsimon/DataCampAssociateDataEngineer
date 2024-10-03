@@ -1,0 +1,29 @@
+OLTP stands for Online Transaction Processing. 
+OLAP stands for Online Analytical Processing. 
+The OLTP approach is oriented around transactions, while the other is oriented around analytics.
+
+OLTP tasks: 
+Find the price of a book
+Update latest customer transaction
+Keep track of employee hours
+
+OLAP tasks:
+Calculate books with best profit margin
+Find most loyal customers
+Decide employee of the month
+
+OLTP:
+Purpose: support daily transaction
+Design: application oriented
+Data: up-ta-date, operational
+Size: snapshot, GBs
+Queries: simple transactions and frequent updates
+Users: thousands
+
+OLAP:
+Purpose: report and analyze data
+Design: subject oriented
+Data: consolidated, historical
+Size: archive, TBs
+Queries: complex, aggregate queries and limited updates
+Users: hundreds

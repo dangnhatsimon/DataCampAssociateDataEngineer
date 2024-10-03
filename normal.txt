@@ -1,0 +1,25 @@
+Normal forms (NF):
+1. First normal form (1NF)
+2. Second normal form (2NF)
+3. Third normal form (3NF)
+4. Elementary key normal form (EKNF)
+5. Boyce-Codd normal form (BCNF)
+6. Fourth normal form (4NF)
+7. Fourth normal form (4NF)
+8. Essential tupple normal form (ETNF)
+9. Fifth normal form (5NF)
+10. Domain- key normal form (5NF)
+11. Sixth normal form (6NF)
+
+First normal form (1NF):
+Each record must be unique - no duplicate rows
+Each cell must hold one value
+
+Second normal form (2NF):
+Satisfy 1NF and:
+If primary key is one column then automatically satisfies 2NF
+If thre is a composite primary key then each non key column must be dependent on all the keys
+
+Third normal form (3NF):
+Satisfies 2NF
+No transitive dependencies: non key columns can't depend on other non key columns.

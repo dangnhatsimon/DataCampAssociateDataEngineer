@@ -1,0 +1,8 @@
+1. A conceptual data model describes what the database contains, such as its entities, relationships, and attributes. 
+2. A logical data model decides how these entities and relationships map to tables. 
+3. A physical data model looks at how data will be physically stored at the lowest level of abstraction. 
+
+Dimensional models are made up of two types of tables: fact and dimension tables. 
+What the fact table holds is decided by the business use-case. It contains records of a key metric, and this metric changes often. 
+Fact tables also hold foreign keys to dimension tables. 
+Dimension tables hold descriptions of specific attributes and these do not change as often.
